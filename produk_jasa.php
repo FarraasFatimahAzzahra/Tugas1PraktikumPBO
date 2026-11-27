@@ -14,19 +14,13 @@ $produk->setKode('P0001')->setNama('Laptop')->setHarga('1000000')->setStok(5);
 //hasil
 echo "Produk: ". $produk->getNama();
 echo "<br/>";
-
 echo "Harga: ". $produk->getHarga();
 echo "<br/>";
-
 echo "Stock: ". $produk->getStok();
 echo "<br/>";
-
 echo "Pajak: ". $produk->pajak(). "%";
 echo "<br/>";
 echo "<br/>";
-
 echo "Total harga setelah pajak: Rp.". $produk->total();
-
 echo "<br/>";
-
 echo "Metode pembayaran: ".$produk->payment('qris');

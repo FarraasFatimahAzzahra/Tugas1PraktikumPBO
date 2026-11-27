@@ -3,7 +3,6 @@
 namespace Pbo\Marketplace;
 
 trait Produk {
-
     //property
     private string $kode;
     private string $nama;
@@ -15,6 +14,7 @@ trait Produk {
     public function __construct() {
 
     }
+    
     //setter
     public function setKode($kode) {
         $this->kode = $kode;

@@ -1,12 +1,12 @@
 <?php
 
 //panggil file propertyconstant
-require('./PropertyConstant.php');
+require('./Jasa.php');
 
-use Pbo\Marketplace\Produk;
+use Pbo\Marketplace\Jasa;
 
 //object
-$produk = new Produk();
+$produk = new Jasa();
 
 $produk->setKode('P0001')->setNama('Laptop')->setHarga('1000000')->setStok(5);
     
